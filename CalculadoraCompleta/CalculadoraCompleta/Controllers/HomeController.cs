@@ -11,6 +11,19 @@ namespace CalculadoraCompleta.Controllers
         // GET: Home
         public ActionResult Index()
         {
+
+            return View();
+        }
+        
+        // POST: Home
+        [HttpPost]
+        public ActionResult Index(string bt)
+        {
+
+
+
+
+
             return View();
         }
     }
